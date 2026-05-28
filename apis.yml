@@ -1,0 +1,32 @@
+aid: open-movie-database
+name: Open Movie Database
+description: "Movie information"
+url: http://www.omdbapi.com/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Video"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Video
+  - Public APIs
+apis:
+  - name: Open Movie Database
+    description: "Movie information"
+    humanURL: http://www.omdbapi.com/
+    baseURL: http://www.omdbapi.com/
+    tags:
+      - Video
+    properties:
+      - type: Documentation
+        url: http://www.omdbapi.com/
+common:
+  - type: Website
+    url: http://www.omdbapi.com/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
