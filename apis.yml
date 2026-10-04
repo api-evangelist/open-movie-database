@@ -39,7 +39,6 @@ apis:
   - name: Open Movie Database
     description: "Movie information"
     humanURL: http://www.omdbapi.com/
-    baseURL: http://www.omdbapi.com/
     tags:
       - Video
     properties:
